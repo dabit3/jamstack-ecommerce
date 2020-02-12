@@ -46,8 +46,8 @@ class Layout extends React.Component {
                 <nav>
                   <div className="flex justify-center">
                     <div className="
-                    w-fw
-                    mobile:px-10 desktop:px-0 px-4 pt-10 pb-6
+                    w-fw pt-10 pb-6
+                    px-4 mobile:px-10 desktop:px-0
                     flex flex-col
                     sm:flex-row">
                       <Link to="/">
