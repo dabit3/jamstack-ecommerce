@@ -13,7 +13,7 @@ class CartLink extends React.Component {
         <div className="fixed top-49 right-20 desktop:right-flexiblemargin z-10">
           <div className="flex flex-1 justify-end pr-4 relative">
             <Link to="/cart">
-              <FaShoppingCart />
+              <FaShoppingCart title="Shopping Cart" />
             </Link>
             {
               numberOfItemsInCart > Number(0) && (
